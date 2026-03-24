@@ -31,7 +31,6 @@ describe('chainer', () => {
   });
 
   it('should call each function exactly once with correct arguments', () => {
-    // Створюємо моки
     const m1 = jest.fn(f1);
     const m2 = jest.fn(f2);
     const m3 = jest.fn(f3);
